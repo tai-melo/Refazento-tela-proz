@@ -1,0 +1,95 @@
+* {
+  font-family: 'Maven Pro', sans-serif;
+}
+
+
+.home_header {
+  background-color: rgb(217, 211, 211);
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.home_header_navbar  {
+  display: flex;
+  gap: 16px;
+  
+}
+
+.home_header_nav_ul {
+  display: flex;
+  justify-content: flex-end;
+  gap: 16px;
+}
+
+a {
+  color: black;
+}
+
+a:hover{
+  
+  color: white;
+  
+}
+
+.proz_body {
+  background-color: #59378D;
+  height: 100vh; /*altura da Viewport, pega a altura total do dispositivo seja ele tablet, cel, note etc.*/
+  color: white;
+}
+
+.proz_description_services_one , .proz_description_services_two {
+  background: url(img/bg_laranja.jpg) ;
+  padding: 40px;
+  border-radius: 15px;
+  width: 300px;
+  height: 170px;
+  box-shadow: 2px 2px 4px  black;
+  /*cursor: pointer; usado para habilitar a posição do pointer*/
+  
+}
+
+.proz_description_services_one:hover , .proz_description_services_two:hover {
+  box-shadow: 10px 10px 15px   black;
+}
+
+
+.proz_description_section {
+  display: flex;
+  gap:30px;
+  
+}
+
+.proz_description_services_title {
+  margin-bottom: 16px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.proz_main {
+  height: 100%; /*pega toda a altura e porcentagem é usado para resposividade.*/
+  display: flex;
+  flex-direction: column;
+  align-items: center; /*deixa todos itens no centros*/
+  padding: 0 150px 0 150px; /*coloca espaço 1º em cima, 2º esquerda, 3º embaixo, 4º direita, mas tbm pode colocar só 0 250px q ele já identifica que os lados de cima e embaixo é zero e na esquerda e direita fica 150px*/
+  
+  
+}
+
+.proz_main_titles {
+  align-self: flex-start;
+  padding-left: 130px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.proz_main_title {
+  
+  font-size: 52px;
+  font-weight: bold;
+  
+}
+
+.proz_main_subtitle {
+  font-size: 20px;
+}
