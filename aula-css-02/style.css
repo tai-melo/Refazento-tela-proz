@@ -50,7 +50,7 @@ a:hover{
 }
 
 .proz_description_services_one:hover , .proz_description_services_two:hover {
-  box-shadow: 10px 10px 15px   black;
+  box-shadow: 10px 10px 15px   rgb(199, 146, 199);
 }
 
 
